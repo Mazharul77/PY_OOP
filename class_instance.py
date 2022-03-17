@@ -1,4 +1,4 @@
-print("=== Class instance, instantiation, Object & inheritance implementation with Python ===\n")
+print("\t === Class instance, instantiation, Object & inheritance implementation with Python ===\n")
 
 
 class ItIndustry:
@@ -47,3 +47,4 @@ print("\n\t University Class Hours:", uni_object.hours)
 print("\n\t The Performance Rate Of Students: %.2f" % (uni_object.emp_activity()*.70), "%")
 
 print("\n\t========== Py-OOP Class Concept is Partially Ended =============")
+
