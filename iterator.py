@@ -3,7 +3,7 @@
 # iter().__next__(): immediate next items access,
 # ... automatically stop iteration when iteration reaches to end
 
-print("...... Iterator Concept : Like Software Release(after some update) .......")
+print("...... Iterator Concept : Like Software Release(after some update-if any) .......")
 # Dictionary iter() , 1 by 1 next key/val access:
 dict_ = {"software": "CRM-management", "trend": "Python", "Key": "value", }
 var_dict_ = iter(dict_.items())
@@ -20,5 +20,5 @@ for item in it_:
     print("The Iter Items:", item)
 
 # Let's Check The Next Iteration (whether next iterable items ends or existed):
-print("\n\t ... Iteration Ended ...")
+print("\n\t ... Iteration Ended. Hence Throws Stop-iteration...")
 print(it_.__next__())
